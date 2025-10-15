@@ -1,8 +1,8 @@
-# 🧠 Social Media Backend API
+Social Media Backend API
 
 A fully functional backend for a social media application built with **Node.js**, **Express**, and **MongoDB**.
 
-## 🚀 Features
+Features
 - User registration & login with JWT authentication  
 - CRUD operations for posts  
 - File uploads using Multer  
@@ -10,10 +10,10 @@ A fully functional backend for a social media application built with **Node.js**
 - Scalable MVC architecture  
 - Tested via Postman
 
-## 🛠️ Tech Stack
+Tech Stack
 Node.js | Express | MongoDB | Mongoose | JWT | Multer | Bcrypt | Render | Postman
 
-## 📦 Installation
+Installation
 ```bash
 git clone https://github.com/ArjunJayachandran125/social-media-backend.git
 cd social-media-backend
@@ -32,19 +32,19 @@ Then run:
 npm run dev
 ```
 
-## 🧪 Test with Postman
+Test with Postman
 - POST `/api/auth/register`
 - POST `/api/auth/login`
-- GET `/api/posts` (requires token)
-- POST `/api/posts` (requires token, form-data with image)
+- GET `/api/posts` 
+- POST `/api/posts` 
 
-## 📸 Example Request (Postman)
+Example Request (Postman)
 **POST** `/api/posts`  
 Headers: `Authorization: Bearer <token>`  
 Body: form-data → `caption: "My first post"`, `image: <file>`
 
-## 🏁 Deployment
-Deployed easily on [Render](https://render.com) or [Railway](https://railway.app).
+Deployment
+Deployed easily on Render
 
 ---
 **Author:** [Arjun Jayachandran](https://github.com/ArjunJayachandran125)
